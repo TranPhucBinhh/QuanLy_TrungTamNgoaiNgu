@@ -24,6 +24,6 @@
 - **MVC 5**: .NET Framework 4.8 Developer Pack, Visual Studio 2019/2022, SQL Server (LocalDB/Express)
 
 
-## 4) Giấy phép & liên hệ
-- Giấy phép: MIT (tuỳ chỉnh nếu cần).  
+## 4) Liên hệ  
 - Tác giả: TranPhucBinhh.
+- Email: tranphucbinh201@gmail.com
