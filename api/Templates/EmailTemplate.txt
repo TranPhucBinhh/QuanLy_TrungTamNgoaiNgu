@@ -1,0 +1,10 @@
+Dear {Name},
+
+Thank you for registering with L&T Education. We look forward to supporting you.
+
+Your details:
+- Email: {Email}
+- Phone: {Phone}
+
+Best regards,
+The L&T Education Team

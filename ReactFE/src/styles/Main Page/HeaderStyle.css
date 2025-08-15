@@ -1,0 +1,54 @@
+/* Header styling */
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; /* Giảm khoảng cách giữa các thành phần trong header */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-header img {
+  width: 100px; /* Giảm kích thước logo nếu cần */
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 10px; /* Giảm khoảng cách giữa các mục menu */
+}
+
+.nav-list li {
+  font-size: 16px;
+}
+
+.cta-container {
+  display: flex;
+  gap: 5px; /* Giảm khoảng cách giữa các nút CTA */
+}
+
+.cta-container .btn {
+  padding: 8px 16px; /* Giảm padding để thu nhỏ kích thước nút */
+  border-radius: 25px;
+  font-size: 14px;
+}
+
+.cta-container .btn-consult {
+  background-color: transparent;
+  border: 2px solid #ff1900;
+  color: #ff1900;
+}
+
+.cta-container .btn-register {
+  background-color: #ff1900;
+  color: white;
+  border: none;
+}

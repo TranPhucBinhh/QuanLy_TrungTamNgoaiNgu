@@ -1,0 +1,63 @@
+.recentCourses {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers items horizontally */
+    justify-content: center; /* Centers items vertically */
+    margin-bottom: 40px;
+  }
+  .sectionTitle {
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    font-weight: 300;
+    color: #000;
+    letter-spacing: -0.57px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+  }
+  
+  .courseControls {
+    display: flex;
+    gap: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .controlIcon {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+  }
+  
+  .course {
+    background-color: #073a91;
+    border-radius: 4px;
+    padding: 20px;
+    color: #fff;
+    height: 250px;
+    width: 500px;
+    display: flex;
+    flex-direction: column; /* Allows stacking elements vertically */
+    align-items: center; /* Centers content horizontally */
+    justify-content: flex-start; /* Keeps content at the top initially */
+  }
+  
+  .courseTitle {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-top: auto; /* Pushes the title to the bottom */
+    text-align: center; /* Centers the text */
+  }
+  
+  @media (max-width: 991px) {
+    .recentCourses {
+      margin-bottom: 20px;
+    }
+  }

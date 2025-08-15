@@ -1,0 +1,23 @@
+.dashboard {
+  display: flex;
+  flex-direction: row; /* Change to row to allow horizontal layout */
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.mainContent {
+  display: flex;
+  flex: 1;
+  align-items: flex-start; /* Aligns the content to the left */
+}
+
+@media (max-width: 991px) {
+  .dashboard {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+  }
+
+  .mainContent {
+    flex-direction: column;
+    width: 100%; /* Full width on smaller screens */
+  }
+}

@@ -1,0 +1,132 @@
+/* Footer styling */
+.main-footer {
+  background-color: #C81F17; /* Nền xanh đậm */
+  color: white; /* Màu chữ trắng */
+  padding: 40px 20px; /* Padding hợp lý cho khoảng cách */
+  width: 100vw; /* Đảm bảo chiếm hết chiều rộng màn hình */
+  margin-top: 40px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+  max-width: 1200px;
+  margin: 0 auto; /* Căn giữa nội dung bên trong */
+}
+
+.footer-logo .logo img {
+  width: 120px;
+  height: auto; /* Giữ tỉ lệ ảnh */
+}
+
+.footer-description {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+.footer-achievements {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 10px 0;
+}
+
+.footer-achievements li {
+  margin-bottom: 10px;
+}
+
+.footer-subtitle {
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-nav-column {
+  flex: 1;
+  min-width: 220px; /* Đảm bảo không bị quá hẹp trên màn hình nhỏ */
+}
+
+.footer-nav-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-nav-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer-nav-list li {
+  margin-bottom: 8px;
+}
+
+.footer-nav-list a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-nav-list a:hover {
+  text-decoration: underline;
+}
+
+.footer-contact {
+  margin-top: 20px;
+}
+
+.footer-contact-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-contact-item {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.footer-contact a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-contact a:hover {
+  text-decoration: underline;
+}
+
+.footer-social a {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.footer-social img {
+  width: 30px;
+  height: auto; /* Giữ tỉ lệ ảnh */
+}
+
+.footer-locations {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.footer-locations .location {
+  background-color: white;
+  color: #05224a;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+}

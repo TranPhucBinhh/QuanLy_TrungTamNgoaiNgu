@@ -1,0 +1,32 @@
+/* Banner styling */
+.banner-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  background-image: url('https://cdn.builder.io/api/v1/image/assets/TEMP/193bc9611f1f8e00e76d4c614805d67aa130b90befdb24819e2302ddc4c5e1db?placeholderIfAbsent=true&apiKey=a7156eeee83b466eb594d236000740da');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 60vh;
+  width: 100%;
+  padding: 40px 20px;
+}
+
+.banner-content {
+  z-index: 1;
+  padding: 20px;
+  color: #9E452F;
+  max-width: 500px; /* Giới hạn chiều rộng của banner content */
+  margin-left: 50px; /* Đưa margin sang bên trái để tạo khoảng cách */
+}
+
+.banner-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.banner-subtitle {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}

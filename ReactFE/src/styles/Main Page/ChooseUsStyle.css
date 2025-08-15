@@ -1,0 +1,90 @@
+/* Why Choose Us Section */
+.why-choose-us {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #003F69; /* Màu chủ đạo cho tiêu đề */
+    margin-bottom: 40px;
+  }
+  
+  .reasons-container {
+    display: flex;
+    flex-wrap: wrap; /* Cho phép các phần tử nằm trên nhiều dòng */
+    justify-content: space-between; /* Căn đều khoảng cách giữa các card */
+    gap: 20px; /* Khoảng cách giữa các card */
+  }
+  
+  /* Card Styling */
+  .reason-card {
+    background-color: white;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Thay đổi chiều rộng của các card */
+  .reason-card {
+    flex: 0 1 calc(50% - 20px); /* 2 card trên cùng */
+    max-width: calc(50% - 20px); /* Đảm bảo không vượt quá chiều rộng */
+  }
+  
+  /* Thay đổi chiều rộng của các card cho hàng dưới */
+  .reason-card:nth-child(n+3) {
+    flex: 0 1 calc(33.33% - 20px); /* 3 card dưới cùng */
+    max-width: calc(33.33% - 20px); /* Đảm bảo không vượt quá chiều rộng */
+  }
+  
+  .reason-card:hover {
+    transform: translateY(-10px); /* Hiệu ứng hover khi di chuyển thẻ lên */
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15); /* Đổ bóng khi hover */
+  }
+  
+  .reason-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    object-fit: contain;
+  }
+  
+  .reason-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .reason-description {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .reasons-container {
+      flex-direction: column; /* Đặt thành cột trên màn hình nhỏ */
+      align-items: center;
+    }
+  
+    .reason-card {
+      width: 90%; /* Chiếm toàn bộ chiều rộng màn hình */
+      max-width: 90%; /* Đảm bảo không vượt quá chiều rộng */
+    }
+  
+    .section-title {
+      font-size: 1.75rem; /* Giảm kích thước tiêu đề */
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .reason-card {
+      width: 45%; /* Chiếm một nửa chiều rộng trên màn hình trung bình */
+      max-width: 45%; /* Đảm bảo không vượt quá chiều rộng */
+    }
+  }
+  

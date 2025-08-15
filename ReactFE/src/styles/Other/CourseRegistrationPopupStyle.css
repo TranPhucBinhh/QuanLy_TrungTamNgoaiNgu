@@ -1,0 +1,56 @@
+
+.dialog-paper {
+    border-radius: 20px;
+    padding: 20px;
+    width: 500px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+  }
+  
+  .dialog-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #1F2A6B;
+  }
+  
+  .dialog-content {
+    padding-bottom: 20px;
+  }
+  
+  .course-description {
+    color: #17205E;
+  }
+  
+  .course-paragraph {
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    background-color: white;
+    border-radius: 8px;
+  }
+  
+  .actions-container {
+    justify-content: center;
+  }
+  
+  .cancel-button {
+    background-color: #ff4d4d;
+    color: white;
+  }
+  
+  .cancel-button:hover {
+    background-color: #ff3333;
+  }
+  
+  .register-button {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .register-button:hover {
+    background-color: #45A049;
+  }
+  

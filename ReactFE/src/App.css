@@ -1,0 +1,86 @@
+/* Đảm bảo phần tử chính không bị đè bởi Header */
+.center-content {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-top: 80px; /* Tạo khoảng cách từ đầu trang tránh header */
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Bố cục trang và overflow */
+main .content-box {
+  max-height: calc(100vh - 200px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-bottom: 4rem;
+  scrollbar-width: none; /* Đối với Firefox */
+}
+
+main .content-box::-webkit-scrollbar {
+  display: none; /* Đối với Chrome, Safari, WebKit */
+}
+
+/* General body styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  box-sizing: border-box;
+}
+
+/* Đảm bảo các phần tử không bị quá lớn */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .center-content {
+    padding: 10px;
+  }
+
+  .main-header {
+    padding: 5px;
+  }
+
+  .banner-title {
+    font-size: 2rem;
+  }
+
+  .banner-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .course-list {
+    grid-template-columns: 1fr; /* Điều chỉnh để khóa học xếp thành một cột */
+  }
+}
+
+@media (max-width: 480px) {
+  .center-content {
+    padding: 5px;
+  }
+
+  .banner-title {
+    font-size: 1.75rem;
+  }
+
+  .banner-subtitle {
+    font-size: 1rem;
+  }
+
+  .course-card {
+    padding: 15px;
+  }
+}

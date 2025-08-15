@@ -1,0 +1,129 @@
+/* Đặt margin và padding cho toàn bộ trang */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Đảm bảo không có phần tử bị tràn */
+}
+
+html, body {
+  width: 100%;
+  height: auto; /* Đảm bảo body có chiều cao tự động theo nội dung */
+  min-height: 100%; /* Đặt tối thiểu chiều cao để tránh lỗi hiển thị */
+  overflow-x: hidden; /* Ngăn chặn tràn chiều ngang */
+  font-family: Arial, sans-serif; /* Chọn font chữ phù hợp */
+}
+
+/* Điều chỉnh phần danh sách điều hướng */
+.main-nav .nav-list {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+/* Container cho CTA (Call to Action) */
+.cta-container {
+  display: flex;
+  gap: 8px;
+}
+
+/* Làm cho header có responsive */
+@media (max-width: 768px) {
+  .main-header {
+    flex-direction: column;
+    align-items: flex-start; /* Căn chỉnh từ trái trên màn hình nhỏ */
+    padding: 10px 20px;
+  }
+
+  .main-nav .nav-list {
+    display: none; /* Ẩn danh sách điều hướng trên màn hình nhỏ */
+  }
+
+  .cta-container {
+    margin-top: 10px;
+    width: 100%;
+    justify-content: center; /* Căn giữa các nút CTA */
+  }
+
+  /* Hamburger menu cho mobile */
+  .hamburger {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+
+  /* Hiển thị menu khi click vào hamburger */
+  .nav-list.active {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+}
+
+/* Thêm style cho nội dung chính */
+.main-content {
+  padding-top: 80px; /* Thêm khoảng cách để tránh bị che bởi header */
+  margin: 20px;
+}
+
+/* Style cho các phần nội dung */
+.section {
+  padding: 40px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.section-description {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+}
+/* Full width section */
+.full-width {
+  width: 100vw; /* Chiều rộng toàn màn hình */
+  margin-left: calc(-50vw + 50%); /* Đảm bảo căn giữa và full-width */
+}
+
+.full-width .registration-form, .full-width footer {
+  width: 100%; /* Đảm bảo bên trong full width */
+}
+
+/* Giữ nguyên padding bên trong nếu cần */
+.registration-form {
+  padding: 40px 20px;
+}
+
+footer {
+  padding: 40px 20px;
+  background-color: #05224a; /* Đảm bảo footer có nền */
+}
+
+/* Responsive cho các phần */
+@media (max-width: 768px) {
+  .section {
+    padding: 20px;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .section-description {
+    font-size: 1rem;
+  }
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: #333;
+}
+

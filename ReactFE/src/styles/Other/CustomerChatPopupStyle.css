@@ -1,0 +1,67 @@
+.chat-container {
+    position: fixed; /* Để toàn bộ container cố định */
+    bottom: 20px;    /* Vị trí từ cạnh dưới */
+    right: 20px;     /* Vị trí từ cạnh phải */
+    display: flex;
+    flex-direction: column; /* Hiển thị nút và khung chat theo cột */
+    align-items: flex-end;   /* Căn phải khung chat và nút */
+}
+
+.open-chat-btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px; /* Khoảng cách giữa nút và khung chat */
+}
+
+.open-chat-btn:hover {
+    background-color: #0056b3;
+}
+
+.chat-modal {
+    width: 300px; /* Chiều rộng của khung chat */
+    max-height: 400px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-messages {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+.chat-input-container {
+    display: flex;
+    gap: 10px;
+}
+
+.chat-input-container input {
+    flex-grow: 1;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.chat-input-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
