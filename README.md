@@ -7,9 +7,9 @@
 ## 1) Tính năng (tóm tắt)
 - Quản lý **học viên**, **giáo viên**, **lớp/khoá học**
 - **Lịch học**, **điểm danh**, theo dõi tiến độ
-- **Học phí/thu–chi**, hoá đơn, công nợ
+- **Học phí/thu–chi**
 - Tìm kiếm/lọc theo nhiều tiêu chí
-- Phân quyền: Admin/Staff (tùy cấu hình)
+- Phân quyền: Admin/Staff
 
 ---
 
@@ -17,11 +17,6 @@
 - **C# & ASP.NET** (Core MVC)
 - **Entity Framework** (EF Core/EF6) — Code First
 - **SQL Server**
-- UI: Razor + Bootstrap/jQuery 
-
-## 3) Yêu cầu hệ thống
-- **ASP.NET Core**: .NET SDK ≥ 8.0, Visual Studio 2022/VS Code, SQL Server
-- **MVC 5**: .NET Framework 4.8 Developer Pack, Visual Studio 2019/2022, SQL Server (LocalDB/Express)
 
 
 ## 4) Liên hệ  
