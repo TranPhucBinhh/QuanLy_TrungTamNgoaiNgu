@@ -1,6 +1,6 @@
 # QuanLy_TrungTamNgoaiNgu
-
-Ứng dụng quản lý quy mô đồ án môn học chương trình đại học trung tâm ngoại ngữ: học viên, lớp học, khoá học, giáo viên, lịch học, điểm danh và học phí.
+Phạm vi: đồ án môn học
+Ứng dụng quản lý trung tâm ngoại ngữ: học viên, lớp học, khoá học, giáo viên, lịch học, điểm danh và học phí.
 
 ---
 
